@@ -1,0 +1,12 @@
+@import '../../styles/_vars';
+@import '../../styles/_mixins';
+
+.container {
+  justify-items: center;
+  text-align: center;
+  min-width: 1400px;
+  .content {
+    min-height: 80vh;
+    margin-top: 20px;
+  }
+}
